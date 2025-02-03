@@ -1,1 +1,5 @@
-# runtrack-python-poo
+# Runtrack Python Poo
+
+## Day 1 :
+
+### Exercise 1 :
