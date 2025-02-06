@@ -25,3 +25,19 @@ class Professeur(Personne):
     
     def enseigner(self):
         print("Le cours va commencer")
+
+p = Personne()
+p.bonjour()
+p.afficherAge()
+p.modifierAge(30)
+p.afficherAge()
+
+e = Eleve()
+e.bonjour()
+e.allerEnCours()
+e.afficherAge()
+
+prof = Professeur(age=40, matiereEnseignee="Mathématiques")
+prof.bonjour()
+prof.enseigner()
+prof.afficherAge()
